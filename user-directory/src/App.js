@@ -1,23 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Child from "./components/Child";
+import "./App.css";
+
+const postArray = [1, 2, 3, 4, 5];
 
 function App() {
+  const [userName, setUserName] = useState("Reginald");
+
+  useEffect(() => {
+    console.log(userName);
+  }, [userName]);
+
+  const handleChange = (e) => {
+    let { value } = e.target;
+    setUserName(value);
+  };
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Child name={userName} setUserName={setUserName}></Child> */}
+        {postArray.map((post) => (
+          <Child name={post} key={post} />
+        ))}
+        <h2>{userName}</h2>
+        <input type="text" onChange={handleChange} value={userName}></input>
       </header>
     </div>
   );
