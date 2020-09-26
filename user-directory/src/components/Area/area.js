@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Table from "./Table/table";
 import Nav from "./Nav/nav";
 import API from "../utils/API";
-import "./area.css";
+import "user-directory/src/components/Area/area.css";
 
 export default class Area extends Component {
     state = {
