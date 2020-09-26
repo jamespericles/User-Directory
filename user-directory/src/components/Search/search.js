@@ -1,5 +1,5 @@
 import React from "react";
-import "user-directory/src/components/Search/search.css";
+import "./search.css";
 
 function Search({ handleSearchChange }) {
   return (

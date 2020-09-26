@@ -1,6 +1,6 @@
 import React from "react";
 import Body from "../Body/body";
-import "user-directory/src/components/Table/table.css";
+import "./table.css";
 
 function Table({ headings, users, handleSort }) {
   return (
