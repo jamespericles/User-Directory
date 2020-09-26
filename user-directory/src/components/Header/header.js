@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Employee Directory</h1>
+        <h1>User Directory</h1>
         <p>
           Currently you can filter by names or utilize the search bar to find
           specific, totally real, employees!

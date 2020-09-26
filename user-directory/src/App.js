@@ -1,21 +1,18 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Index from "./pages/index";
-import NavBar from "./components/NavBar/index";
-import Footer from "./components/Footer/index";
-import Wrapper from "./components/Wrapper/index";
+import React from "react";
+import Main from "./components/Main/main";
+import Wrapper from "../src/components/Wrapper/wrapper";
+import Header from "./components/Header/header";
+
+import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <>
-        <NavBar />
-        <Wrapper>
-          <Route exact path="/" component={Index} />
-        </Wrapper>
-        <Footer />
-      </>
-    </Router>
+    <div className="App">
+      <Wrapper>
+        <Header />
+        <Main />
+      </Wrapper>
+    </div>
   );
 }
 
