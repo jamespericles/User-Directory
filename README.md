@@ -8,8 +8,6 @@
 ### [Usage](#Usage)
 ### [License](#License)
 ### [Contributing](#Contributing)
-
-### [Questions](#Questions)
 ### [Github](#Github)
 ---
 ### <a name="Description"></a>Description
@@ -17,7 +15,7 @@ User-Directory is a proof of concept for a workplace directory. Taking advantage
 ### <a name="Screenshots"></a>Screenshots
 ![index](https://github.com/jamespericles/User-Directory/blob/master/user-directory/Screenshots/index.png)
 ### <a name="Installation"></a>Installation
-You can either clone this repository or download a zip file. Afterwards, be sure to run `npm i` at the root of `user-directory` folder in order to install all necessary dependencies. Otherwise, the application is deployed [here]()
+You can either clone this repository or download a zip file. Afterwards, be sure to run `npm i` at the root of `user-directory` folder in order to install all necessary dependencies. Otherwise, the application is deployed [here](https://user--directory.heroku.app.com/)
 ### <a name="Usage"></a>Usage
 As mentioned previously, this application is a proof of concept for a company focused social media platform to allow employees are large companies get to know their coworkers easier.
 ### <a name="License"></a>License
@@ -44,8 +42,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ### <a name="Contributing"></a>Contributing
 I can be contacted at jamesspericles@gmail.com.
-
-### <a name="Questions"></a>Questions
-jamesspericles@gmail.com
 ### <a name="Github"></a>Github
-This project can be found [here](https://github.com/User-Directory)
+This project can be found [here.](https://github.com/User-Directory)
