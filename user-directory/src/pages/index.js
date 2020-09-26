@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container/index";
 import Row from "../components/Row/index";
 import Col from "../components/Col/index";
 import Card from "../components/Card/index";
+import API from "../utils/API";
 
 function Index() {
   return (
