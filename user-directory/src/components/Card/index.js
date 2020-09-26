@@ -3,6 +3,6 @@ import CardBtn from "../CardBtn";
 import "./style.css";
 
 function Card(props) {
-  return <div></div>;
+  return <></>;
 }
 export default Card;

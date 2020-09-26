@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Container from "../components/Container/index";
 import Row from "../components/Row/index";
 import Col from "../components/Col/index";
+import Card from "../components/Card/index";
 
 function Index() {
   return (
@@ -15,6 +16,17 @@ function Index() {
         <Row>
           <Col size="md-12">
             <h1>Welcome to User Directory!</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-4">
+            <Card />
+          </Col>
+          <Col size="md-4">
+            <Card />
+          </Col>
+          <Col size="md-4">
+            <Card />
           </Col>
         </Row>
       </Container>
