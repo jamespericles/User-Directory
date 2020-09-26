@@ -13,13 +13,13 @@
 ### [Github](#Github)
 ---
 ### <a name="Description"></a>Description
-WIP
+User-Directory is a proof of concept for a workplace directory. Taking advantage of the [Random User API](https://randomuser.me/), the app generates 150 fake users and then appends their data to the appropriate location on the page. This would be handy for a pseudo company-wide social networking application that would help larger companies and their employees have an easy way to find other employees.
 ### <a name="Screenshots"></a>Screenshots
-WIP
+![index](https://github.com/jamespericles/User-Directory/blob/master/user-directory/Screenshots/index.png)
 ### <a name="Installation"></a>Installation
-WIP
+You can either clone this repository or download a zip file. Afterwards, be sure to run `npm i` at the root of `user-directory` folder in order to install all necessary dependencies. Otherwise, the application is deployed [here]()
 ### <a name="Usage"></a>Usage
-WIP
+As mentioned previously, this application is a proof of concept for a company focused social media platform to allow employees are large companies get to know their coworkers easier.
 ### <a name="License"></a>License
 MIT License
 
@@ -44,7 +44,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ### <a name="Contributing"></a>Contributing
 I can be contacted at jamesspericles@gmail.com.
-
 
 ### <a name="Questions"></a>Questions
 jamesspericles@gmail.com
