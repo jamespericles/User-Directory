@@ -75,7 +75,7 @@ export default class Area extends Component {
   };
 
   componentDidMount() {
-    API.getUsers().then((results) => {
+    API.getRandomUser().then((results) => {
       this.setState({
         users: results.data.results,
         filteredUsers: results.data.results,
