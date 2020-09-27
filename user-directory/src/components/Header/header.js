@@ -7,7 +7,7 @@ export default class Header extends Component {
       <div className="header">
         <h1>User Directory</h1>
         <p>
-          Currently you can filter by names or utilize the search bar to find
+          Currently you can filter by name or utilize the search bar to find
           specific, totally real, employees!
         </p>
       </div>
