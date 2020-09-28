@@ -15,9 +15,9 @@ User-Directory is a proof of concept for a workplace directory. Taking advantage
 ### <a name="Screenshots"></a>Screenshots
 ![index](https://github.com/jamespericles/User-Directory/blob/master/user-directory/Screenshots/index.png)
 ### <a name="Installation"></a>Installation
-You can either clone this repository or download a zip file. Afterwards, be sure to run `npm i` at the root of `user-directory` folder in order to install all necessary dependencies. Otherwise, the application is deployed [here](https://user--directory.heroku.app.com/)
+You can either clone this repository or download a zip file. Afterwards, be sure to run `npm i` at the root of `user-directory` folder in order to install all necessary dependencies. Otherwise, the application is deployed [here.](https://user--directory.heroku.app.com/)
 ### <a name="Usage"></a>Usage
-As mentioned previously, this application is a proof of concept for a company focused social media platform to allow employees are large companies get to know their coworkers easier.
+As mentioned previously, this application is a proof of concept for a company focused social media platform to allow employees are large companies get to know their coworkers easier. Its like a digital rotodex in that way.
 ### <a name="License"></a>License
 MIT License
 
